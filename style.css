@@ -26,17 +26,32 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #333;
+    background-color: #696666;
     color: #fff;
-    padding: 1em;
+    padding: 0.5em;
     position: fixed;
+    height: 3rem;
     left: 0;
     right: 0;
     bottom: 0;
 }
 
+#spalsh {
+    border: 1px solid black;
+    background-image: url(tech1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 300px;
+}
+
 header h2 {
     color:cadetblue;
+}
+
+nav ul li:hover {
+    background-color: #ccc;
+    transition: all 1s;
 }
 
 nav ul {
@@ -59,7 +74,7 @@ nav ul li a {
 section {
     color: white;
     padding: 20px;
-    margin: 20px 20px;
+    margin: 50px 20px;
 }
 section ul li {
     color: white;
@@ -71,6 +86,12 @@ section h1, section h2 {
     color: #641421;
 }
 
+.project p {
+    color: #641421;
+    font-style: italic;
+
+
+}
 .contact {
     display:flex;
     align-items: center;
