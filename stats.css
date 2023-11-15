@@ -1,0 +1,21 @@
+body {
+    /* display: flex; */
+    justify-content: flex-start;
+    background-color: olive;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+div {
+    font-size: larger;
+    height: 3rem;
+}
+
+section {
+    background-color: darkseagreen;
+}
