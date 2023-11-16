@@ -22,6 +22,11 @@ header {
     padding: 1em;
 }
 
+/* div {
+    font-size: larger;
+    height: 3rem;
+} */
+
 footer {
     display: flex;
     justify-content: flex-start;
@@ -77,13 +82,21 @@ section {
     margin: 50px 20px;
 }
 section ul li {
-    color: white;
+    color: black;
     padding: 0px;
     margin: 10px 10px;
 }
 
 section h1, section h2 {
     color: #641421;
+}
+
+stat-section div {
+    color: black;
+    font-size: larger;
+    height: 3rem;
+    padding: 16px;
+    margin: 10px 10px;
 }
 
 .project p {

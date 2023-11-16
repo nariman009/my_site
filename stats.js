@@ -88,4 +88,4 @@ function displayResults() {
 }
 
 // Call the displayResults function when the page loads
-window.onload = displayResults;
+// window.onload = displayResults;
