@@ -76,7 +76,7 @@ function displayResults() {
     // Convert the user input to an array
     let numbers = input.split(",").map(Number);
 
-    document.getElementById('array').textContent = `You have entered array: [${numbers}]`;
+    document.getElementById('array').textContent = `Your input array: [${numbers}]`;
     document.getElementById('length').textContent = `You have given ${getLength(numbers)} numbers.`;
     document.getElementById('sum').textContent = `The sum of your numbers is ${getSum(numbers)}.`;
     document.getElementById('mean').textContent = `The mean of your numbers is ${getMean(numbers)}.`;

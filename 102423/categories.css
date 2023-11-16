@@ -1,0 +1,22 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 222px;
+    padding: 1em;
+}
+
+.categories a {
+    text-decoration: none;
+    background: rgb(187, 169, 68);
+    color: rgb(5, 27, 99);
+    font-family: 'times new roman';
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 1em 0.5em;
+    padding: 1em;
+}
+
+.categories a:hover {
+    background: rgb(34, 136, 51);
+    box-shadow: 0 2px 5px -2px black;
+}

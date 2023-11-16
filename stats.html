@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <script src="stats.js"></script>
+    <script src="flavor.js"></script>
   </head>
 
   <body>
@@ -20,21 +21,42 @@
         </ul>
       </nav>
     </header>
-    <stat-section>
-      <!-- <h1>Stats</h1> -->
-      <h3>
-        <a onclick="displayResults()" href="#">Stats</a>
-      </h3>
-      <div id="array"></div>
-      <div id="length"></div>
-      <div id="sum"></div>
-      <div id="mean"></div>
-      <div id="min"></div>
-      <div id="max"></div>
-      <div id="range"></div>
-      <div id="evens"></div>
-      <div id="odds"></div>
-    </stat-section>
+    <section class="stats">
+      <section>
+        <h3>
+          <a onclick="displayResults()" href="#">Stats</a>
+        </h3>
+        <div id="array" class="stat"></div>
+        <div id="length" class="stat"></div>
+        <div id="sum" class="stat"></div>
+        <div id="mean" class="stat"></div>
+        <div id="min" class="stat"></div>
+        <div id="max" class="stat"></div>
+        <div id="range" class="stat"></div>
+        <div id="evens" class="stat"></div>
+        <div id="odds" class="stat"></div>
+      </section>
+      <section>
+        <h3>
+          <a onclick="flavorResults()" href="#">Stats2</a>
+        </h3>
+        <div id="farray" class="stat"></div>
+        <div id="fstats" class="stat"></div>
+        <!-- <div id="sum"></div>
+        <div id="mean"></div>
+        <div id="min"></div>
+        <div id="max"></div>
+        <div id="range"></div>
+        <div id="evens"></div>
+        <div id="odds"></div> -->
+      </section>
+      <section>
+        <h3>
+          <a href="./102423/index.html">Online Store</a>
+        </h3>
+      </section>
+    </section>
+
     <footer>
       <!-- <h2>Contact Me</h2> -->
       <p>

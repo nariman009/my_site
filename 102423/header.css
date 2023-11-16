@@ -1,0 +1,102 @@
+.main-nav,
+.sub-nav {
+  font-family: 'verdana';
+  font-weight: 300;
+  display: flex;
+}
+
+.main-nav {
+  background: rgb(129, 73, 8);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.horizontal.nav-list {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.horizontal.nav-list a {
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 0.25em 0.5em;
+  border-right: 5px solid #888;
+}
+
+.horizontal.nav-list li:last-of-type a {
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .horizontal.nav-list.full-width {
+    display: none;
+  }
+
+  .horizontal.nav-list.short-width {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
+  .horizontal.nav-list.full-width {
+    display: flex;
+  }
+
+  .horizontal.nav-list.short-width {
+    display: none;
+  }
+}
+
+.sub-nav {
+  display: flex;
+  background: #eee;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.search-form {
+  display: flex;
+  flex: 1;
+}
+
+.search-form input {
+  padding: 0.25em 0.5em;
+  flex: 1;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #44b;
+}
+
+.search-form button {
+  background: rgb(144, 83, 146);
+  color: white;
+  padding: 0.25em 0.5em;
+  border: none;
+}
+
+.company-name {
+  font-family: 'IM Fell Great Primer SC', serif;
+  font-size: 34px;
+  color: rgb(8, 8, 121);
+  min-width: calc(256px - 2rem);
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.credit-offer {
+  text-decoration: none;
+  color: #eee;
+  font-weight: bold;
+  font-size: 18px;
+  background: rgb(151, 14, 14);
+  padding: 0.25rem 0.5rem;
+  flex-shrink: 0;
+  margin: 0 1rem;
+}
