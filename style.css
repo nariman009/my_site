@@ -91,12 +91,17 @@ section h1, section h2 {
     color: #641421;
 }
 
+stat-section h3 {
+    padding: 10px;
+    margin: 20px 20px;
+}
+
 stat-section div {
     color: black;
-    font-size: larger;
-    height: 3rem;
-    padding: 16px;
-    margin: 10px 10px;
+    font-size: large;
+    height: 1.5rem;
+    padding: 10px;
+
 }
 
 .project p {
