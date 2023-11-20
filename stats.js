@@ -76,15 +76,15 @@ function displayResults() {
     // Convert the user input to an array
     let numbers = input.split(",").map(Number);
 
-    document.getElementById('array').textContent = `Your input array: [${numbers}]`;
-    document.getElementById('length').textContent = `You have given ${getLength(numbers)} numbers.`;
-    document.getElementById('sum').textContent = `The sum of your numbers is ${getSum(numbers)}.`;
-    document.getElementById('mean').textContent = `The mean of your numbers is ${getMean(numbers)}.`;
-    document.getElementById('min').textContent = `The smallest of your numbers is ${getMin(numbers)}.`;
-    document.getElementById('max').textContent = `The largest of your numbers is ${getMax(numbers)}.`;
-    document.getElementById('range').textContent = `The range of your numbers is ${getRange(numbers)}.`;
-    document.getElementById('evens').textContent = `The even numbers you gave are ${getEvens(numbers)}.`;
-    document.getElementById('odds').textContent = `The odd numbers you gave are ${getOdds(numbers)}.`;
+    document.getElementById('array').textContent = `[${numbers}]`;
+    document.getElementById('length').textContent = `${getLength(numbers)}`;
+    document.getElementById('sum').textContent = `${getSum(numbers)}`;
+    document.getElementById('mean').textContent = `${getMean(numbers)}`;
+    document.getElementById('min').textContent = `${getMin(numbers)}`;
+    document.getElementById('max').textContent = `${getMax(numbers)}`;
+    document.getElementById('range').textContent = `${getRange(numbers)}`;
+    document.getElementById('evens').textContent = `${getEvens(numbers)}`;
+    document.getElementById('odds').textContent = `${getOdds(numbers)}`;
 }
 
 // Call the displayResults function when the page loads

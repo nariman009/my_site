@@ -96,40 +96,37 @@ section h1, section h2 {
     margin: 20px 20px;
 }
 
- .stat {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+.stat {
+    /* display: flex; */
+    /* flex-direction: column; */
     color: black;
-    font-size: larger;
-    /* height: 1.5rem; */
-    /* padding: 0 0 0 10px; */
-    /* width: 200px; */
-    /* border: #333; */
-    /* box-shadow: 0 3px 5px -2px black; */
+    font-size: large;
+    padding: 0 0 10px 10px;
+    width: 500px;
+    height: fit-content;
+    border: #333;
+    box-shadow: 0 3px 5px -2px black;
+    word-break: break-all;
 } 
 
 
 .stats {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    /* padding: 1rem 0; */
-  
-    flex: 1;
-  
+
     display: flex;
+    flex: 1;
+    width: 1500px;
+
+    
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: #333;
-    box-shadow: 0 3px 5px -2px black; */
 
-    /* font-family: 'Open Sans', sans-serif; */
+
+    font-family: 'Open Sans', sans-serif;
     align-items: flex-start;
-
 }
+
+
 .project p {
     color: #641421;
     font-style: italic;
