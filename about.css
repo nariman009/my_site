@@ -1,6 +1,6 @@
-body {
+body section{
     font-family: Arial, sans-serif;
-    background-color: rgb(203, 229, 240);
+    /* background-color: rgb(203, 229, 240); */
 }
 
 header h1 {
@@ -9,6 +9,8 @@ header h1 {
 
 section {
     margin: 20px;
+    font-size: medium;
+    padding-bottom: 1rem;
 }
 
 h2 {
@@ -16,8 +18,12 @@ h2 {
 }
 
 ul {
-    list-style-type: disc;
+    list-style-type: square;
     padding-left: 20px;
+}
+.two {
+    list-style-type: circle;
+
 }
 
 /* Add more styling as needed */
